@@ -27,3 +27,14 @@ The image below shows the summary statistics for a linear regression performend 
 ![Lot1_tstat](https://github.com/Melberoni/MechaCar_Statistical_Analysis/blob/d80b3b913c1d3849358256be8b3490a4006dac49/Challenge/lot1_tstat.png)
 ![lot2_tstat](https://github.com/Melberoni/MechaCar_Statistical_Analysis/blob/d80b3b913c1d3849358256be8b3490a4006dac49/Challenge/lot2_tstat.png)
 ![lot3_tstat](https://github.com/Melberoni/MechaCar_Statistical_Analysis/blob/d80b3b913c1d3849358256be8b3490a4006dac49/Challenge/lot3_tstat.png)
+
+
+## Study Design: MechaCar vs Competition
+To determine how MechaCar performs against the competition, i would look at MPG that is one of the most relevant metrics to the everyday consumer
+
+The null hypothesis would be there is no difference in avg MPG  between the competition and MechaCar.
+the alternative hypothses would be there is a differnce in avg MPG  between the competition and MechaCar.
+
+I would take the competor that is directly comparable to the MechaCar and I would start with a t test between competiton and the MechaCar on MPG.
+I would use a t-test since I am comparing two samples. In order ot do this I would need a set of sample mpg data for the competors version of the car in a simalar sample size that I have for MechaCar.
+
