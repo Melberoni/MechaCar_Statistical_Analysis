@@ -20,3 +20,21 @@ lot_summary<- coil_data%>%group_by(Manufacturing_Lot) %>% summarise(mean(PSI),me
 total_summary
 
 lot_summary
+
+
+##########################################################
+# deliverable 3
+############################################################
+
+overall_t_stat<- t.test(coil_data$PSI, mu=1500)
+overall_t_stat
+
+lot1_tstat<-t.test(subset(coil_data$PSI,coil_data$Manufacturing_Lot =='Lot1'),mu=1500)
+lot1_tstat  
+
+
+lot2_tstat<-t.test(subset(coil_data$PSI,coil_data$Manufacturing_Lot =='Lot2'),mu=1500)
+lot2_tstat  
+
+lot3_tstat<-t.test(subset(coil_data$PSI,coil_data$Manufacturing_Lot =='Lot3'),mu=1500)
+lot3_tstat  
