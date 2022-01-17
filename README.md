@@ -15,3 +15,15 @@ The image below shows the summary statistics for a linear regression performend 
 * However when we look at the variance by lot we can see that lot 3 has a variance at 170 (summary below), that would not meet manufacturing design specifications.
 
 ![lot_summary](https://github.com/Melberoni/MechaCar_Statistical_Analysis/blob/eca29dc625fbaae9698bea8babbd634726800abb/Challenge/Lot_summary_coils_dataset.png)
+
+## T-Tests on Suspension Coils
+
+* If we look at the data as a whole it is not statisitcally different than 1500. You can see the pvalue is above .05 so we fail to reject the null hypothesis
+![overall_Tstat](https://github.com/Melberoni/MechaCar_Statistical_Analysis/blob/d80b3b913c1d3849358256be8b3490a4006dac49/Challenge/overall_tstat.png)
+
+* However if we look at the data by Lots and compare to the population we can see that Lot 3 has a pvalue under .05 and we could consider this statistically signifcant and reject the null hypothesis for this lot only because the other two lots had a pvalue over .05.
+
+
+![Lot1_tstat](https://github.com/Melberoni/MechaCar_Statistical_Analysis/blob/d80b3b913c1d3849358256be8b3490a4006dac49/Challenge/lot1_tstat.png)
+![lot2_tstat](https://github.com/Melberoni/MechaCar_Statistical_Analysis/blob/d80b3b913c1d3849358256be8b3490a4006dac49/Challenge/lot2_tstat.png)
+![lot3_tstat](https://github.com/Melberoni/MechaCar_Statistical_Analysis/blob/d80b3b913c1d3849358256be8b3490a4006dac49/Challenge/lot3_tstat.png)
